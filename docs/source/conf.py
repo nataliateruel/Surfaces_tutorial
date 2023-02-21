@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Surfaces'
+copyright = '2023, Najmanovich Research Group'
+author = 'Natalia F B Teruel'
 
 release = '0.1'
 version = '0.1.0'
