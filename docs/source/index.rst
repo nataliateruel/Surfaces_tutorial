@@ -14,6 +14,8 @@ how to :ref:`installation` the project.
 .. note::
 
    This project is under active development.
+   
+   Cite this work as *Surfaces: A software to quantify and visualise interactions within and between proteins and ligands*.
 
 Contents
 --------
