@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+Surfaces
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Copyright 2023, Najmanovich Research Group
 
-Read the tutorial here:
+Cite this work as Surfaces: A software to quantify and visualise interactions within and between proteins and ligands.
 
-https://docs.readthedocs.io/en/stable/tutorial/
+The documentation is hosted here: https://surfaces-tutorial.readthedocs.io/en/latest
