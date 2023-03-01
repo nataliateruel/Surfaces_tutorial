@@ -1,12 +1,9 @@
 Surface's documentation
 ===================================
 
-**Surfaces** is a set of Python scripts
+**Surfaces** comprises a collection of Python scripts that provide a rapid means to assess protein interactions by analyzing the atomic surface areas in contact and the types of atoms involved in the interaction.
 
-for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+In this document, we offer a guide on how to install and utilize the protein-protein and protein-ligand interaction evaluation functions, as well as the evaluation function of all the interactions associated with specific residues of interest. We also provide a manual for utilizing the structure preprocessing scripts necessary for each of these functions.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
