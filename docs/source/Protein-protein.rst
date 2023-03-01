@@ -3,7 +3,7 @@ Protein-Protein
 
 .. _installation:
 
-Installation
+Interaction calculation
 ------------
 
 To use Lumache, first install it using pip:
@@ -12,7 +12,7 @@ To use Lumache, first install it using pip:
 
    (.venv) $ pip install lumache
 
-Creating recipes
+Visual output
 ----------------
 
 To retrieve a list of random ingredients,
