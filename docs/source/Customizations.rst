@@ -4,4 +4,11 @@ Customizations
 .. autosummary::
    :toctree: generated
 
-   lumache
+Atom type definitions
+------------
+
+Pairwise interaction
+------------
+
+Visual outputs
+------------
