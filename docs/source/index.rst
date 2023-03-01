@@ -18,6 +18,8 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Index
 
    usage
    api
