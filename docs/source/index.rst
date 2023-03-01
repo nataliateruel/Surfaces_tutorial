@@ -11,8 +11,6 @@ In this document, we offer a guide on how to install and utilize the protein-pro
    
    Cite this work as *Surfaces: A software to quantify and visualise interactions within and between proteins and ligands*.
 
-Index
---------
 
 .. toctree::
    :maxdepth: 2
