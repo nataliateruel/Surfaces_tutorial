@@ -18,8 +18,9 @@ Index
    :maxdepth: 2
    :caption: Index
 
-   usage
-   api
+   Installation
+   Preprosessing
    Protein-protein
    Protein-ligand
    Particular_residues
+   Customizations
