@@ -1,4 +1,4 @@
-Usage
+Protein-Protein
 =====
 
 .. _installation:
