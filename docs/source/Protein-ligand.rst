@@ -3,7 +3,7 @@ Protein-Ligand
 
 .. _installation:
 
-Installation
+Interaction calculation
 ------------
 
 To use Lumache, first install it using pip:
@@ -12,7 +12,7 @@ To use Lumache, first install it using pip:
 
    (.venv) $ pip install lumache
 
-Creating recipes
+Visual output
 ----------------
 
 To retrieve a list of random ingredients,
@@ -31,3 +31,6 @@ For example:
 >>> import lumache
 >>> lumache.get_random_ingredients()
 ['shells', 'gorgonzola', 'parsley']
+
+Example application
+----------------
