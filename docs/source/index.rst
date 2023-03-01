@@ -17,7 +17,7 @@ In this document, we offer a guide on how to install and utilize the protein-pro
    :caption: Index
 
    Installation
-   Preprosessing
+   Preprocessing
    Protein-protein
    Protein-ligand
    Particular_residues
