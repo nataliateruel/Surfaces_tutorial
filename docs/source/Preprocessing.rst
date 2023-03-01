@@ -1,4 +1,4 @@
-Proprocessing
+Preprocessing
 =====
 
 .. _installation:
