@@ -4,31 +4,16 @@ Preprocessing
 Protein structures
 ------------
 
-To use Lumache, first install it using pip:
+In order for Surfaces to evaluate an atom, this particular atom must be specified in the .def file of choice. The default .def file we offer, AMINO_FlexAID.def (from `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`), already contains the definition of all residues' atoms. To clean the structure from any non-defined atom, you might use::
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
+   python clean_structure.py -f pdb_file.pdb -def def_file.def
+   
+You will see examples of usage of this script in `Protein-Protein <https://surfaces-tutorial.readthedocs.io/en/latest/Protein-protein.html#example-application>`. To customize the atom types definition, you can check `Customizations <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#atom-type-definitions>.
 
 Ligands
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+You will see examples of usage of these scripts in `Protein-Ligand <https://surfaces-tutorial.readthedocs.io/en/latest/Protein-ligand.html#example-application>`
 
 Structural models
 ----------------
