@@ -4,11 +4,11 @@ Preprocessing
 Protein structures
 ------------
 
-In order for Surfaces to evaluate an atom, this particular atom must be specified in the .def file of choice. The default .def file we offer, AMINO_FlexAID.def (from `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`), already contains the definition of all residues' atoms. To clean the structure from any non-defined atom, you might use::
+In order for Surfaces to evaluate an atom, this particular atom must be specified in the .def file of choice. The default .def file we offer, AMINO_FlexAID.def (from `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_), already contains the definition of all residues' atoms. To clean the structure from any non-defined atom, you might use::
 
    python clean_structure.py -f pdb_file.pdb -def def_file.def
    
-You will see examples of usage of this script in `Protein-Protein <https://surfaces-tutorial.readthedocs.io/en/latest/Protein-protein.html#example-application>`. To customize the atom types definition, you can check `Customizations <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#atom-type-definitions>.
+You will see examples of usage of this script in `Protein-Protein <https://surfaces-tutorial.readthedocs.io/en/latest/Protein-protein.html#example-application>`_. To customize the atom types definition, you can check `Customizations <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#atom-type-definitions>`_.
 
 Ligands
 ----------------
