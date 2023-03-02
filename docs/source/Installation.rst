@@ -9,7 +9,7 @@ To access all Surfaces codes, you can clone the repository::
 
 There are a few dependencies for Surface's python scrips. You can install those inside your terminal using::
 
-	pip install -r requirements.txt
+	pip install -r dependencies.txt
 
 Another necessary step is to compile Vcontacts. In order to do so, you might use::
 	
