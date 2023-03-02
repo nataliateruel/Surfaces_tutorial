@@ -1,36 +1,21 @@
 Protein-Protein
 =====
 
-.. _installation:
-
 Interaction calculation
 ------------
 
-To use Lumache, first install it using pip:
+To calculate pairwise interactions between residues of different strutural units, you use::
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
+      python surface_cont.py -f pdb_file.pdb -c1 ABC -c2 DE -o csv_output.csv -def atomtypes_definition.def -dat atomtypes_interactions.dat
+      
+in which you will be calculating the interactions between residues of the first group of chains (A, B and C in the example) and residues of the second group of chains (D and E in the example).
 
 Visual output
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+To generate a pymol session visually presenting the calculated results, you might use::
 
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+      python image_surfaces.py -f pdb_file.pdb -c csv_output.csv -o pymol_session_output.pse
 
 Example application
 ----------------
