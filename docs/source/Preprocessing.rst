@@ -13,6 +13,15 @@ You will see examples of usage of this script in `Protein-Protein <https://surfa
 Ligands
 ----------------
 
+One automated customization that is avaliable is the one to create atom type definitions for ligands of interest. To use it you will need to create and  a pdb file with only the ligand of interest using the following functions::
+
+   python crate_lig_file.py -f pdb_file.pdb -lig LIG
+   python ligand_atomtypes.py -fl ligand_file.pdb
+   
+After updating the .def file with the ligand of interest, you may clean the complex structure keeping the ligand atoms:
+
+   python clean_structure.py -f pdb_file.pdb -def custom_def_file.def
+
 You will see examples of usage of these scripts in `Protein-Ligand <https://surfaces-tutorial.readthedocs.io/en/latest/Protein-ligand.html#example-application>`_.
 
 Structural models
