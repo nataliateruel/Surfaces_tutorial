@@ -17,7 +17,7 @@ To generate a pymol session visually presenting the calculated results, you migh
 
       python image_surfaces.py -f pdb_file.pdb -c csv_output.csv -o pymol_session_output.pse
 
-or utilize extra customizations that are better explained at `here <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#visual-outputs>`_.
+or utilize extra customizations that are better explained at `Customizations <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#visual-outputs>`_.
 
 Example application
 ----------------
