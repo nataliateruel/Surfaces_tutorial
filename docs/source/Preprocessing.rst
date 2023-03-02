@@ -1,8 +1,6 @@
 Preprocessing
 =====
 
-.. _installation:
-
 Protein structures
 ------------
 
@@ -34,3 +32,7 @@ For example:
 
 Structural models
 ----------------
+
+Since Surfaces method is based on the area in contact between atoms, it is important to check if the proximity between atoms is realistic when it comes to modeled structures. Atoms that are too close together would create steric clashes and therefore have an extremely unfavorable interaction, but from the area in contact perspective this would not be seen. In order to identify possible steric clashes that would make particular results unreliable, you can test your structure using::
+
+   python steric_clashes.py -f pdb_file.pdb
