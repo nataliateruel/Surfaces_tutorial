@@ -1,36 +1,23 @@
 Particular residues
 =====
 
-.. _installation:
-
 Interaction calculation
 ------------
 
-To use Lumache, first install it using pip:
+To calculate interactions between particular residues of interest and residues of a protein, you use::
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
+      python surface_cont_res.py -f pdb_file.pdb -res res1,res2,res3 -lig LIG -o csv_output.csv -def atomtypes_definition.def -dat atomtypes_interactions.dat
+      
+that will provide a calculation of the interactions between the residues of interest (written as resName-numRes-chainID) and every other residue in the structure, including intrachain interactions.
 
 Visual output
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+To generate a pymol session visually presenting the calculated results, you might use::
 
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+      python image_surfaces.py -f pdb_file.pdb -c csv_output.csv -o pymol_session_output.pse
+      
+or utilize extra customizations that are better explained at `Customizations <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#visual-outputs>`_.
 
 Example application
 ----------------
