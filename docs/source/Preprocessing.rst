@@ -13,7 +13,7 @@ You will see examples of usage of this script in `Protein-Protein <https://surfa
 Ligands
 ----------------
 
-You will see examples of usage of these scripts in `Protein-Ligand <https://surfaces-tutorial.readthedocs.io/en/latest/Protein-ligand.html#example-application>`
+You will see examples of usage of these scripts in `Protein-Ligand <https://surfaces-tutorial.readthedocs.io/en/latest/Protein-ligand.html#example-application>`_.
 
 Structural models
 ----------------
