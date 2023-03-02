@@ -6,7 +6,7 @@ Interaction calculation
 
 To calculate interactions between particular residues of interest and residues of a protein, you use::
 
-      python surface_cont_res.py -f pdb_file.pdb -res res1,res2,res3 -lig LIG -o csv_output.csv -def atomtypes_definition.def -dat atomtypes_interactions.dat
+      python surface_cont_res.py -f pdb_file.pdb -res res1,res2,res3 -o csv_output.csv -def atomtypes_definition.def -dat atomtypes_interactions.dat
       
 that will provide a calculation of the interactions between the residues of interest (written as resName-numRes-chainID) and every other residue in the structure, including intrachain interactions.
 
