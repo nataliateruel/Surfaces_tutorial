@@ -1,7 +1,7 @@
 Installation
 =====
 
-The initial step for using Surfaces is to install python. The details of this installation can be found at the _`Python downloads page <https://www.python.org/downloads/>`_.
+The initial step for using Surfaces is to install python. The details of this installation can be found at the `Python downloads page <https://www.python.org/downloads/>`_.
 
 There are a few dependencies for Surface's python scrips. You can install those inside your terminal::
 
