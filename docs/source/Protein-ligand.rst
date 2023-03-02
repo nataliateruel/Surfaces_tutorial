@@ -1,36 +1,21 @@
 Protein-Ligand
 =====
 
-.. _installation:
-
 Interaction calculation
 ------------
 
-To use Lumache, first install it using pip:
+To calculate pairwise interactions between a ligand and residues of a protein, you use::
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
+      python surface_cont_lig.py -f pdb_file.pdb -c ABC -lig LIG -o csv_output.csv -def atomtypes_definition.def -dat atomtypes_interactions.dat
+      
+that will provide a calculation of the interactions between residues of the group of chains (A, B and C in the example) and atoms of the ligand (LIG in the example).
 
 Visual output
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+To generate a pymol session visually presenting the calculated results, you might use::
 
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+      python image_surfaces.py -f pdb_file.pdb -c csv_output.csv -o pymol_session_output.pse
 
 Example application
 ----------------
