@@ -15,5 +15,4 @@ Another necessary step is to compile Vcontacts. In order to do so, you might use
 or also::
 
    	gcc -c Vcontacts-v1-2.c
-
-   	gcc Vcontacts-v1-2.o -o vcon
+	gcc Vcontacts-v1-2.o -o vcon
