@@ -22,7 +22,7 @@ or utilize extra customizations that are better explained at `Customizations <ht
 Example application
 ----------------
 
-For the protein-ligand application we will use a structure of the SARS-CoV-2 papain-like protease (PLpro) and the ligand Proflavin (PRL) (`PDB ID 7NT4 <https://www.rcsb.org/structure/7NT4>`_), reported to have inhibitory effects. With this function of Surfaces we will be able to rapidly assess the specific interactions of this complex, allowing the study of the binding pocket and possible mechanisms of inhibition.
+For the **protein-ligand** application we will use a structure of the SARS-CoV-2 papain-like protease (PLpro) and the ligand Proflavin (PRL) (`PDB ID 7NT4 <https://www.rcsb.org/structure/7NT4>`_), reported to have inhibitory effects. With this function of Surfaces we will be able to rapidly assess the specific interactions of this complex, allowing the study of the binding pocket and possible mechanisms of inhibition.
 
 The initial step is to update the atom type definitions file with the atoms of the ligand PRL. For that you will create a pdb file containg only the ligand of interest and evaluate the atom types of the atoms in this pdb file, like described at `Preprocessing <https://surfaces-tutorial.readthedocs.io/en/latest/Preprocessing.html#ligands>`_::
       
