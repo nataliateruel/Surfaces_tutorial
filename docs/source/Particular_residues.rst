@@ -24,7 +24,7 @@ Example application
 
 For our **particular residues** application we will use the SARS-CoV-2 Spike containing the mutation D614G (`PDB ID 7EAZ <https://www.rcsb.org/structure/7eaz>`_), now known to contribute to evolutionary fitness through different molecular mechanisms. With this function of Surfaces we will be able to quickly evaluate both intra and interchain interactions from the residue in question, GLY614, to assess posible impacts in folding or conformational equilibrium connected to transmissibility.
 
-First we need to clean the structure from any non-defined atom, such as heteroatoms - in the case of this example, NAG and BMA atoms:
+First we need to clean the structure from any non-defined atom, such as heteroatoms - in the case of this example, NAG and BMA atoms::
 
       python clean_structure.py -f 7EAZ.pdb -def AMINO_FlexAID.def
       
