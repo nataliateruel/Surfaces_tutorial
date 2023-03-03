@@ -24,7 +24,7 @@ Example application
 
 For our **protein-protein** application we will utilize a structure of Spike, a viral glycoprotrein, in complex with nanobodies (`PDB ID 7VQ0 <https://www.rcsb.org/structure/7VQ0>`_). The study of epitopes is a very important field, and with the following scripts we are able to access the particular viral residues and interactions that might be important for immune recognition.
 
-First we need to clean the structure from any non-defined atom, such as heteroatoms - in the case of this example, NAG atoms::
+First we need to clean the structure from any non-defined atom, such as heteroatoms - in the case of this example, NAG, MAN and FUC atoms::
 
       python clean_structure.py -f 7VQ0.pdb -def AMINO_FlexAID.def
       
