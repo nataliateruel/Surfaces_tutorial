@@ -21,3 +21,5 @@ or utilize extra customizations that are better explained at `Customizations <ht
 
 Example application
 ----------------
+
+SARS-CoV-2 PLpro PROFLAVIN (PRL) (`PDB ID 7NT4 <https://www.rcsb.org/structure/7NT4>`_)
