@@ -9,16 +9,15 @@ To access all Surfaces codes, you can clone the repository::
 
 There are a few dependencies for Surface's python scrips. You can install those inside your terminal using::
 
+	cd Surfaces
 	pip install -r dependencies.txt
 
 Another necessary step is to compile Vcontacts. In order to do so, you might use::
 	
-	cd Surfaces
    	clang Vcontacts-v1-2.c -o vcon
    
 or also::
 
-   	cd Surfaces
 	gcc -c Vcontacts-v1-2.c
 	gcc Vcontacts-v1-2.o -o vcon
 
