@@ -22,7 +22,7 @@ or utilize extra customizations that are better explained at `Customizations <ht
 Example application
 ----------------
 
-For our Protein-protein application we will utilize a structure of Spike, a viral glycoprotrein, in complex with nanobodies (`PDB ID 7VQ0 <https://www.rcsb.org/structure/7VQ0>`_.). The study of epitopes is a very important field, and with the following scripts we are able to access the particular viral residues and interactions that might be important for immune recognition.
+For our Protein-protein application we will utilize a structure of Spike, a viral glycoprotrein, in complex with nanobodies (`PDB ID 7VQ0 <https://www.rcsb.org/structure/7VQ0>`_). The study of epitopes is a very important field, and with the following scripts we are able to access the particular viral residues and interactions that might be important for immune recognition.
 
 First we need to clean the structure from any non-defined atom, such as heteroatoms::
 
