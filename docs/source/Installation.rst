@@ -3,6 +3,8 @@ Installation
 
 The initial step for using Surfaces is to install python. The details of this installation can be found at the `Python downloads page <https://www.python.org/downloads/>`_.
 
+Another fundamental step is to install pymol, following the instructions at the Pymol Wiki for each operational system - `Mac <https://pymolwiki.org/index.php/MAC_Install>`_, `Linux <https://pymolwiki.org/index.php/Linux_Install>`_ or `Windows <https://pymolwiki.org/index.php/Windows_Install>`_.
+
 To access all Surfaces codes, you can clone the repository::
 
 	git clone https://github.com/nataliateruel/Surfaces
