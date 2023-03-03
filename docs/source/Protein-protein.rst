@@ -26,7 +26,7 @@ For our Protein-protein application we will utilize a structure of Spike, a vira
 
 First we need to clean the structure from any non-defined atom, such as heteroatoms::
 
-      python clean_structure.py -f ./example_structures/7VQ0.pdb -def AMINO_FlexAID.def
+      python clean_structure.py -f 7VQ0.pdb -def AMINO_FlexAID.def
       
 Once this step is done, you will have created the clean_7VQ0.pdb file.
 
