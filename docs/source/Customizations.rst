@@ -4,7 +4,7 @@ Customizations
 Atom type definitions
 ------------
 
-The default atom type definition offered for the 20 amino acids is based on 40 atom types as described for the `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_.
+The default definition of atom types provided for the 20 amino acids is derived from 40 atom types outlined in the `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_.
 
 .. include::
    ALA | N:11, CA:3, C:2, O:13, CB:3, OXT:13,
@@ -28,9 +28,9 @@ The default atom type definition offered for the 20 amino acids is based on 40 a
    TYR | N:11, CA:3, C:2, O:13, CB:3, CG:4, CD:4, CD1:4, CD2:4, CE:4, CE1:4, CE2:4, CZ:4, OH:14, OXT:13,
    VAL | N:11, CA:3, C:2, O:13, CB:3, CG:3, CG1:3, CG2:3, OXT:13,
 
-Any extra atom type definition for ligands (as seen at `Preprocessing <https://surfaces-tutorial.readthedocs.io/en/latest/Preprocessing.html#ligands>`_ and `Protein-Ligand <https://surfaces-tutorial.readthedocs.io/en/latest/Protein-ligand.html#example-application>`_) or modified residues can be added as extra lines following the same formatting pattern.
+Additional atom type definitions for ligands (as detailed in `Preprocessing <https://surfaces-tutorial.readthedocs.io/en/latest/Preprocessing.html#ligands>`_ and `Protein-Ligand <https://surfaces-tutorial.readthedocs.io/en/latest/Protein-ligand.html#example-application>`_) or modified residues can be appended as extra lines using the same formatting pattern.
 
-You can also use for **Surfaces** any other way of defining atoms, as long as respecting the same formatting.
+For **Surfaces**, any other method of defining atoms can be utilized provided that it adheres to the same formatting requirements.
 
 Pairwise interaction
 ------------
