@@ -35,7 +35,7 @@ For **Surfaces**, any other method of defining atoms can be utilized provided th
 Pairwise interaction
 ------------
 
-The default matrix of pairwise interaction energy offered for the 40 atom types was created as described for the `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_.
+The default pairwise interaction energy matrix provided for the 40 atom types was constructed in accordance with the methodology outlined in the `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_.
 
 .. include::
       1- 1 =        0
@@ -119,7 +119,7 @@ The default matrix of pairwise interaction energy offered for the 40 atom types 
       2-40 =    61.75
       [...]
 
-Other matrices, based or not in the same definition of 40 atom types, can be used for **Surfaces** as long as written following this same formatting.
+For **Surfaces**, alternative matrices, whether derived from the same definition of 40 atom types or not, can be employed, provided they are written using the same formatting conventions.
 
 Visual outputs
 ------------
