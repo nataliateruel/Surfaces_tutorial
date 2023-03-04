@@ -4,9 +4,8 @@ Customizations
 Atom type definitions
 ------------
 
-The default definition of atom types provided for the 20 amino acids is derived from 40 atom types outlined in the `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_.
+The default definition of atom types provided for the 20 amino acids is derived from 40 atom types outlined in the `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_::
 
-.. include::
    ALA | N:11, CA:3, C:2, O:13, CB:3, OXT:13,
    ARG | N:11, CA:3, C:2, O:13, CB:3, CG:3, CD:3, NE:12, CZ:5, NH:12, NH1:12, NH2:12, OXT:13,
    ASN | N:11, CA:3, C:2, O:13, CB:3, CG:2, OD:13, OD1:13, ND:11, ND2:11, OXT:13,
@@ -35,9 +34,8 @@ For **Surfaces**, any other method of defining atoms can be utilized provided th
 Pairwise interaction
 ------------
 
-The default pairwise interaction energy matrix provided for the 40 atom types was constructed in accordance with the methodology outlined in the `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_.
+The default pairwise interaction energy matrix provided for the 40 atom types was constructed in accordance with the methodology outlined in the `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_::
 
-.. include::
       1- 1 =        0
       1- 2 =   -119.4
       1- 3 =   -162.9
