@@ -4,9 +4,9 @@ Customizations
 Atom type definitions
 ------------
 
-The default atom type definition offered for the 20 amino acids is based on 40 atom types as described for `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_.
+The default atom type definition offered for the 20 amino acids is based on 40 atom types as described for the `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_.
 
-::
+.. include::
    ALA | N:11, CA:3, C:2, O:13, CB:3, OXT:13,
    ARG | N:11, CA:3, C:2, O:13, CB:3, CG:3, CD:3, NE:12, CZ:5, NH:12, NH1:12, NH2:12, OXT:13,
    ASN | N:11, CA:3, C:2, O:13, CB:3, CG:2, OD:13, OD1:13, ND:11, ND2:11, OXT:13,
@@ -28,16 +28,16 @@ The default atom type definition offered for the 20 amino acids is based on 40 a
    TYR | N:11, CA:3, C:2, O:13, CB:3, CG:4, CD:4, CD1:4, CD2:4, CE:4, CE1:4, CE2:4, CZ:4, OH:14, OXT:13,
    VAL | N:11, CA:3, C:2, O:13, CB:3, CG:3, CG1:3, CG2:3, OXT:13,
 
-Any extra atom type definition for ligands (as seen at `Preprocessing <>`_ and `Protein-Ligand <>`_) or modified residues can be added as extra lines following the same formatting pattern.
+Any extra atom type definition for ligands (as seen at `Preprocessing <https://surfaces-tutorial.readthedocs.io/en/latest/Preprocessing.html#ligands>`_ and `Protein-Ligand <https://surfaces-tutorial.readthedocs.io/en/latest/Protein-ligand.html#example-application>`_) or modified residues can be added as extra lines following the same formatting pattern.
 
 You can also use for **Surfaces** any other way of defining atoms, as long as respecting the same formatting.
 
 Pairwise interaction
 ------------
 
-The default matrix of pairwise interaction energy offered for the 40 atom types was created as described at `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_.
+The default matrix of pairwise interaction energy offered for the 40 atom types was created as described for the `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_.
 
-::
+.. include::
       1- 1 =        0
       1- 2 =   -119.4
       1- 3 =   -162.9
