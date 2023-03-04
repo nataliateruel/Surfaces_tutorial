@@ -27,6 +27,7 @@ The default atom type definition offered for the 20 amino acids is based on 40 a
    TRP | N:11, CA:3, C:2, O:13, CB:3, CG:4, CD:4, CD1:4, CD2:4, NE:10, NE1:10, CE:4, CE1:4, CE2:4, CE3:4, CZ:4, CZ1:4, CZ2:4,          CZ3:4, CH:4, CH2:4, OXT:13,
    TYR | N:11, CA:3, C:2, O:13, CB:3, CG:4, CD:4, CD1:4, CD2:4, CE:4, CE1:4, CE2:4, CZ:4, OH:14, OXT:13,
    VAL | N:11, CA:3, C:2, O:13, CB:3, CG:3, CG1:3, CG2:3, OXT:13,
+:literal:
 
 Any extra atom type definition for ligands (as seen at `Preprocessing <https://surfaces-tutorial.readthedocs.io/en/latest/Preprocessing.html#ligands>`_ and `Protein-Ligand <https://surfaces-tutorial.readthedocs.io/en/latest/Protein-ligand.html#example-application>`_) or modified residues can be added as extra lines following the same formatting pattern.
 
@@ -118,7 +119,8 @@ The default matrix of pairwise interaction energy offered for the 40 atom types 
       2-39 =        0
       2-40 =    61.75
       [...]
-      
+:literal:
+
 Other matrices, based or not in the same definition of 40 atom types, can be used for **Surfaces** as long as written following this same formatting.
 
 Visual outputs
