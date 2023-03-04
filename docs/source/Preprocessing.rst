@@ -4,7 +4,7 @@ Preprocessing
 Protein structures
 ------------
 
-In order for **Surfaces** to evaluate an atom, it must be specified in the .def file. The default .def file provided by Surfaces, AMINO_FlexAID.def (from `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_), already contains the definition of all the atoms of the 20 amino acids. To remove any non-defined atoms from the structure, you can use::
+In order for **Surfaces** to evaluate an atom, it must be specified in the .def file. The default .def file provided by **Surfaces**, AMINO_FlexAID.def (from `FlexAID software <https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078>`_), already contains the definition of all the atoms of the 20 amino acids. To remove any non-defined atoms from the structure, you can use::
 
    python clean_structure.py -f pdb_file.pdb -def def_file.def
    
