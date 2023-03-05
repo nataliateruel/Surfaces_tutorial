@@ -9,7 +9,7 @@ To access all **Surfaces** codes, you can clone the repository using `git <https
 
 	git clone https://github.com/nataliateruel/Surfaces
 
-or download the Surfaces repository at https://github.com/nataliateruel/Surfaces.
+or download the Surfaces repository at ``https://github.com/nataliateruel/Surfaces.
 
 There are a few dependencies for **Surfaces**' Python scripts. You can install them by running the following commands using `pip <https://pip.pypa.io/en/stable/installation/>`_::
 
