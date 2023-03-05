@@ -1,9 +1,9 @@
 How to uninstall
 =====
 
-Find a way to treat dependencies
+Find a way to deal with dependencies
 
-To delte all **Surfaces** scripts and documents, you can run::
+To delete all **Surfaces** scripts and documents, you can run::
 
 	cd ..
 	rm -r Surfaces
