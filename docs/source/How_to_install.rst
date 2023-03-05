@@ -1,4 +1,4 @@
-Installation
+How to install
 =====
 
 The first step in using **Surfaces** is to install Python. Details for installing Python can be found on the `Python downloads page <https://www.python.org/downloads/>`_.
