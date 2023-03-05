@@ -16,9 +16,10 @@ In this document, we offer a guide on how to install and utilize the protein-pro
    :maxdepth: 2
    :caption: Index
 
-   Installation
+   How_to_install
    Preprocessing
    Protein-protein
    Protein-ligand
    Particular_residues
    Customizations
+   How_to_uninstall
