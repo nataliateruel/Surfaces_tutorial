@@ -124,15 +124,15 @@ Visual outputs
 
 We have two visual output functions, one of which displays interactions between residues::
 
-      python image_surfaces.py -f pdb_file.pdb -c csv_output.csv -o pymol_session_output.pse -cs [min_value,max_value] -res res1,res2,res3
+      python image_surfaces.py -f pdb_file.pdb -c csv_output.csv -o pymol_session_output.pse -cs [bottom_coloe,mid_color,top_color] -cs_range [min_value,max_value] -res res1,res2,res3
    
 and the second displays interactions of residues with atoms::
 
-      python image_surfaces_lig.py -f pdb_file.pdb -c csv_output.csv -o pymol_session_output.pse -cs [min_value,max_value] -res res1,res2,res3
+      python image_surfaces_lig.py -f pdb_file.pdb -c csv_output.csv -o pymol_session_output.pse -cs [bottom_color,mid_color,top_color] -cs_range [min_value,max_value] -res res1,res2,res3
 
-The visual outputs funtions, as you can see, have two optional customizations, regarding `color scale <https://surfaces-tutorial.readthedocs.io/en/latest/Protein-ligand.html#example-application>`_ (-cs) and `residues of interest <https://surfaces-tutorial.readthedocs.io/en/latest/Particular_residues.html#example-application>`_ (-res).
+The visual outputs funtions, as you can see, have optional customizations, regarding `color scale <https://surfaces-tutorial.readthedocs.io/en/latest/Protein-ligand.html#example-application>`_ (-cs and -cs_range) and `residues of interest <https://surfaces-tutorial.readthedocs.io/en/latest/Particular_residues.html#example-application>`_ (-res).
 
-For both **image_surfaces.py** and **image_surfaces_lig.py** functions, the color scale is automatically determined based on the single largest absolute value present in the .csv file. For instance, if the largest absolute interaction value in the .csv file is 5000, the color scale will be defined as [-5000, 5000]. However, to enhance the visual sensitivity of interactions that are less numerically significant or to enable comparison of two results with the same color scale, the user can customize this range by providing an extra input (**-cs**).
+For both **image_surfaces.py** and **image_surfaces_lig.py** functions, the color scale is automatically determined based on the single largest absolute value present in the .csv file. For instance, if the largest absolute interaction value in the .csv file is 5000, the color scale will be defined as [-5000, 5000]. However, to enhance the visual sensitivity of interactions that are less numerically significant or to enable comparison of two results with the same color scale, the user can customize this range by providing an extra input (**-cs_range**). The default colors used are blue for negative values, white for values close to zero, and red for positive values. This, however, can be customized by providing a 3 colors list as an extra input (**-cs**); as an example, to reach the default color scale, the input would be ``-cs [blue,white,red]``. Colors must be named as defined `here <https://www.w3.org/TR/css-color-3/#svg-color>`_.
 
 By default, **image_surfaces.py** will only display the 10% most numerically relevant interactions as enabled objects. All other interactions will be shown as objects and can be enabled by the user through the pymol interface. However, if the user desires to view interactions involving specific residues of interest, such as mutated residues or residues that comprise a particular functional site, the function allows for optional input of these residues (**-res**) and will display all their interactions as enabled objects.
 
