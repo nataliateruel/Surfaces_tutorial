@@ -14,7 +14,6 @@ or download the Surfaces repository at ``https://github.com/nataliateruel/Surfac
 There are a few dependencies for **Surfaces**' Python scripts. You can install them by running the following commands using `pip <https://pip.pypa.io/en/stable/installation/>`_::
 
 	cd Surfaces
-	pip list > versions.txt
 	pip install -r dependencies.txt
 
 .. note::
