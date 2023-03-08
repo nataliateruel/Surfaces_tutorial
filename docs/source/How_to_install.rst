@@ -9,13 +9,11 @@ Another essential step is to install `Pymol <https://pymol.org/2/>`_ by followin
 
 	We recommend Pymol installation for each OS as follows:
 	
-	MacOS::
-	conda install -c schrodinger pymol-bundle
+	MacOS ``conda install -c schrodinger pymol-bundle``
 
-	Linux::
-	apt-get install pymol
+	Linux ``apt-get install pymol``
 	
-	Windows::
+	Windows
 	
 
 To access all **Surfaces** codes, you can clone the repository using `git <https://github.com/git-guides/install-git>`_::
