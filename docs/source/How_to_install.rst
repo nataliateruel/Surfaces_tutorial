@@ -3,7 +3,20 @@ How to install
 
 The first step in using **Surfaces** is to install Python. Details for installing Python can be found on the `Python downloads page <https://www.python.org/downloads/>`_.
 
-Another essential step is to install Pymol by following the instructions on the Pymol Wiki for your operating system - `Mac <https://pymolwiki.org/index.php/MAC_Install>`_, `Linux <https://pymolwiki.org/index.php/Linux_Install>`_ or `Windows <https://pymolwiki.org/index.php/Windows_Install>`_.
+Another essential step is to install `Pymol <https://pymol.org/2/>`_ by following the instructions for your operating system.
+
+.. tip::
+
+	We recommend Pymol installation for each OS as follows:
+	
+	MacOS::
+	conda install -c schrodinger pymol-bundle
+
+	Linux::
+	apt-get install pymol
+	
+	Windows::
+	
 
 To access all **Surfaces** codes, you can clone the repository using `git <https://github.com/git-guides/install-git>`_::
 
