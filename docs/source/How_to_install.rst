@@ -11,7 +11,7 @@ Another essential step is to install `Pymol <https://pymol.org/2/>`_ by followin
 	
 	Linux ``apt-get install pymol``
 	
-	For MacOS and Windows, you should first install ``Miniconda <https://docs.conda.io/en/latest/miniconda.html#linux-installers>`` in case you still do not have Anaconda
+	For MacOS and Windows, you should first install ``Miniconda <https://docs.conda.io/en/latest/miniconda.html#linux-installers>_`` in case you still do not have Anaconda
 	
 	MacOS ``conda install -c schrodinger pymol-bundle``
 	
