@@ -15,7 +15,7 @@ Another essential step is to install `Pymol <https://pymol.org/2/>`_ by followin
 	
 	MacOS ``conda install -c schrodinger pymol-bundle``
 	
-	Windows ``conda install -c schrodinger pymol-bundle`` (on Anaconda Powershell Prompt as Administrator)
+	Windows ``conda install -c schrodinger pymol-bundle`` on Anaconda Powershell Prompt as Administrator
 	
 
 To access all **Surfaces** codes, you can clone the repository using `git <https://github.com/git-guides/install-git>`_::
@@ -44,7 +44,7 @@ or also::
 
 .. tip::
 
-	For Windows, make sure to have a functional C compiler installed, what can be done using ``conda install -c conda-forge m2w64-gcc`` (on Anaconda Powershell Prompt as Administrator)
+	If you are using Windows, make sure to have a functional C compiler installed. For that you might run ``conda install -c conda-forge m2w64-gcc`` on Anaconda Powershell Prompt as Administrator.
 
 .. note::
 	
