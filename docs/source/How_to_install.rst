@@ -33,7 +33,7 @@ There are a few dependencies for **Surfaces**' Python scripts. You can install t
 	
 	It is important to install the dependencies for the same version of Python that you plan to use for running the scripts.
 
-Another necessary step is to compile Vcontacts. For Mac and Linux machines, you can use::
+Another necessary step is to compile Vcontacts. You can use::
 	
    	clang Vcontacts-v1-2.c -o vcon
    
