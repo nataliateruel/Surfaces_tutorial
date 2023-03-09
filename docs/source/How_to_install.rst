@@ -28,6 +28,11 @@ There are a few dependencies for **Surfaces**' Python scripts. You can install t
 
 	cd Surfaces
 	pip install -r dependencies.txt
+	
+or also::
+
+	cd Surfaces
+	conda install --file dependencies.txt
 
 .. note::
 	
