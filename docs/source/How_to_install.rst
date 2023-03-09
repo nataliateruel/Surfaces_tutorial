@@ -9,11 +9,13 @@ Another essential step is to install `Pymol <https://pymol.org/2/>`_ by followin
 
 	We recommend Pymol installation for each OS as follows:
 	
-	MacOS ``conda install -c schrodinger pymol-bundle``
-
 	Linux ``apt-get install pymol``
 	
-	Windows
+	For MacOS and Windows, you should first install ``Miniconda <https://docs.conda.io/en/latest/miniconda.html#linux-installers>`` in case you still do not have Anaconda
+	
+	MacOS ``conda install -c schrodinger pymol-bundle``
+	
+	Windows ``conda install -c schrodinger pymol-bundle`` (on Anaconda Powershell Prompt)
 	
 
 To access all **Surfaces** codes, you can clone the repository using `git <https://github.com/git-guides/install-git>`_::
@@ -40,7 +42,9 @@ or also::
 	gcc -c Vcontacts-v1-2.c
 	gcc Vcontacts-v1-2.o -o vcon -lm
 
-For Windows, make sure to have a functional C compiler installed, such as the one presented `here <https://www.wikihow.com/Run-C-Program-in-Command-Prompt>`_.
+.. tip::
+
+	For Windows, make sure to have a functional C compiler installed, what can be done using ``conda install -c conda-forge m2w64-gcc`` (on Anaconda Powershell Prompt)
 
 .. note::
 	
