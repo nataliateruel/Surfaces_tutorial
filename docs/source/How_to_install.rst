@@ -11,7 +11,7 @@ Another essential step is to install `Pymol <https://pymol.org/2/>`_ by followin
 	
 	``conda install -c conda-forge pymol-open-source``
 	
-	For Windoes you must run it on Anaconda Powershell Prompt as Administrator.
+	For Windows you must run it on Anaconda Powershell Prompt as Administrator.
 	
 	For this installation you should first install `Miniconda <https://docs.conda.io/en/latest/miniconda.html#linux-installers>`_ in case you do not have Anaconda installed.
 	
