@@ -7,15 +7,13 @@ Another essential step is to install `Pymol <https://pymol.org/2/>`_ by followin
 
 .. tip::
 
-	We recommend Pymol installation for each OS as follows:
+	We recommend Pymol installation for any OS as follows:
 	
-	Linux ``apt-get install pymol``
+	``conda install -c conda-forge pymol-open-source``
 	
-	For MacOS and Windows, you should first install `Miniconda <https://docs.conda.io/en/latest/miniconda.html#linux-installers>`_ in case you do not have Anaconda installed
+	For Windoes you must run it on Anaconda Powershell Prompt as Administrator.
 	
-	MacOS ``conda install -c conda-forge pymol-open-source``
-	
-	Windows ``conda install -c conda-forge pymol-open-source`` on Anaconda Powershell Prompt as Administrator
+	For this installation you should first install `Miniconda <https://docs.conda.io/en/latest/miniconda.html#linux-installers>`_ in case you do not have Anaconda installed.
 	
 
 To access all **Surfaces** codes, you can clone the repository using `git <https://github.com/git-guides/install-git>`_::
