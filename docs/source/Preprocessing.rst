@@ -30,3 +30,5 @@ Modeled structures
 Since the **Surfaces** method is based on the area in contact between atoms, it is important to check if the proximity between atoms is realistic, especially for modeled structures. Atoms that are too close together can create steric clashes, leading to extremely unfavorable interactions. However, from the area in contact perspective, this would not be detected. To identify possible steric clashes that would make the results unreliable, you can test your structure using::
 
    python steric_clashes.py -f pdb_file.pdb
+
+In case your structure contains steric clashes, you will get warnings as output.
