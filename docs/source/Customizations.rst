@@ -137,3 +137,9 @@ For both **image_surfaces.py** and **image_surfaces_lig.py** functions, the colo
 By default, **image_surfaces.py** will only display the 10% most numerically relevant interactions as enabled objects. All other interactions will be shown as objects and can be enabled by the user through the pymol interface. However, if the user desires to view interactions involving specific residues of interest, such as mutated residues or residues that comprise a particular functional site, the function allows for optional input of these residues by using ``-res`` and will display all their interactions as enabled objects.
 
 In contrast, **image_surfaces_lig.py** will display all interactions as enabled objects by default, represented as separate objects which can be disabled by the user at the pymol interface. However, if the user is interested in a few particular residues, these can be specified as optional inputs ``-res``.
+
+Scaling factor
+------------
+
+The values produced by Surfaces considering the atomic areas in contact and the pseudo-energy matrix are not bound to any particular unit. Considering that binding energies are often calculated as kcal/mol and taking 23 experimental points used in the compared results showed in the article (from _`Sergeeva et al., 2022 <https://www.biorxiv.org/content/10.1101/2022.08.01.502301v2>`_), we reached a scaling factor currently set as 7.21x10^-4 and used in **surface_cont.py**, **surface_cont_lig.py** and **surface_cont_res.py**.
+
