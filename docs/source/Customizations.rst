@@ -141,5 +141,5 @@ In contrast, **image_surfaces_lig.py** will display all interactions as enabled 
 Scaling factor
 ------------
 
-The values produced by Surfaces considering the atomic areas in contact and the pseudo-energy matrix are not bound to any particular unit. Considering that binding energies are often calculated as kcal/mol and taking 23 experimental points used in the compared results showed in the article (from _`Sergeeva et al., 2022 <https://www.biorxiv.org/content/10.1101/2022.08.01.502301v2>`_), we reached a scaling factor currently set as 7.21x10^-4 and used in **surface_cont.py**, **surface_cont_lig.py** and **surface_cont_res.py**.
+The values produced by Surfaces considering the atomic areas in contact and the pseudo-energy matrix are not bound to any particular unit. Considering that binding energies are often calculated as kcal/mol and taking 23 experimental points used in the compared results showed in the article (from `Sergeeva et al., 2022 <https://www.biorxiv.org/content/10.1101/2022.08.01.502301v2>`_), we reached a scaling factor currently set as 7.21x10^-4 and used in **surface_cont.py**, **surface_cont_lig.py** and **surface_cont_res.py**.
 
