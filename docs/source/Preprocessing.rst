@@ -1,5 +1,11 @@
 Preprocessing
 =====
+Structure files
+------------
+
+If your input structure file is in the format mmCIF instead of PDB, you can easily convert it using::
+
+   python cif2pdb.py file.cif
 
 Protein structures
 ------------
