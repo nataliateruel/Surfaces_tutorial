@@ -5,7 +5,7 @@ Structure files
 
 If your input structure file is in the format mmCIF instead of PDB, you can easily convert it using::
 
-   python cif2pdb.py file.cif
+   python cif2pdb.py cif_file.cif
 
 Protein structures
 ------------
