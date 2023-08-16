@@ -31,7 +31,7 @@ First we need to clean the structure from any non-defined atom, such as heteroat
 Once this step is done, you will have created the clean_7VQ0.pdb file.
 
 .. image:: ./images/clean_protein-protein.png
-  :width: 750
+  :width: 450
 
 Now it's time to evaluate interactions::
 
@@ -43,7 +43,7 @@ In which the first group of chains (A, B and C) are chains from the Spike protei
   :width: 750
 
 .. image:: ./images/List_protein-protein.png
-  :width: 750
+  :width: 450
 
 To map this evaluation back to the structure and visually check your results, you can run::
 
