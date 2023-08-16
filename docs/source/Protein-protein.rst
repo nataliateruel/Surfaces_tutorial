@@ -30,14 +30,27 @@ First we need to clean the structure from any non-defined atom, such as heteroat
       
 Once this step is done, you will have created the clean_7VQ0.pdb file.
 
+.. image:: ./images/clean_protein-protein.png
+  :width: 750
+
 Now it's time to evaluate interactions::
 
       python surface_cont.py -f clean_7VQ0.pdb -c1 ABC -c2 DEF -o 7VQ0_output.csv -def AMINO_FlexAID.def -dat FlexAID.dat
       
-In which the first group of chains (A, B and C) are chains from the Spike protein and the second group (D, E and F) are units of the nanobody P86. And now you have created the output file 7VQ0_output.csv with the pairwise interactions of residues from Spike and residues from the nanobodies.
+In which the first group of chains (A, B and C) are chains from the Spike protein and the second group (D, E and F) are units of the nanobody P86. And now you have created the output file 7VQ0_output.csv with the pairwise interactions of residues from Spike and residues from the nanobodies - this file mostly consists of zeros because most pairs are not interacting -, as well as the file List_7VQ0_output.txt, with a list of the existing interactions ranked by absolute value.
+
+.. image:: ./images/CSV_protein-protein.png
+  :width: 750
+
+.. image:: ./images/List_protein-protein.png
+  :width: 750
 
 To map this evaluation back to the structure and visually check your results, you can run::
 
       python image_surfaces.py -f clean_7VQ0.pdb -c 7VQ0_output.csv -o 7VQ0_visual_output.pse
       
 Now you have a representation of your results in the pymol session 7VQ0_visual_output.pse. All the existing interactions are represented as objects, but only the 10% most numerically relevant ones are saved as enabled objects - to change that, check the `Customizations <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#visual-outputs>`_ page. The color scale goes from red for unfavorable interactions, to blue for the favorable ones, and is automatically determined based on the largest absolute value - which is also `Customizable <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#visual-outputs>`_.
+
+.. image:: ./images/Visual_protein-protein.png
+  :width: 750
+
