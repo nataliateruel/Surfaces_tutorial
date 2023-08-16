@@ -31,6 +31,9 @@ The initial step is to update the atom type definitions file with the atoms of t
       
 The file custom_AMINO_FlexAID.def now contains updated atom type definitions that include the atoms of PRL.
 
+.. image:: ./images/custom_AMINO_FlexAID.png
+  :width: 750
+
 The following step is to clean the structure from any non-defined atom in the now updated .def file, meaning any atom that is not defined for the 20 residues or the PRL ligand - in the case of this example, atoms from SO4, EDO and HOH, as well as ZN atoms::
 
       python clean_structure.py -f 7NT4.pdb -def custom_AMINO_FlexAID.def
