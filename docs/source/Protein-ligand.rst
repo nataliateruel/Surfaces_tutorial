@@ -37,11 +37,20 @@ The following step is to clean the structure from any non-defined atom in the no
       
 And you have created the clean version of the .pdb file named clean_7NT4.pdb.
 
+.. image:: ./images/clean_protein-ligand.png
+  :width: 450
+
 Now it's time to evaluate interactions::
 
       python surface_cont_lig.py -f clean_7NT4.pdb -c AB -lig PRL -o 7NT4_output.csv -def custom_AMINO_FlexAID.def -dat FlexAID.dat
 
 In which the chains (A and B) are the chains of the protein and the ligand (PRL) is the ligand of interest, already defined in the custom .def file (custom_AMINO_FlexAID.def). Once this step is done, you have created the output file 7NT4_output.csv with the pairwise interactions between residues from PLpro and atoms from Proflavin - this file mostly consists of zeros because most pairs are not interacting -, as well as the file List_7NT4_output.txt, with a list of the existing interactions ranked by absolute value.
+
+.. image:: ./images/CSV_protein-ligand.png
+  :width: 750
+
+.. image:: ./images/List_protein-ligand.png
+  :width: 450
 
 To map this evaluation back to the structure and visually check your results, you can run::
 
@@ -49,4 +58,5 @@ To map this evaluation back to the structure and visually check your results, yo
       
 Now you have a representation of your results in the pymol session 7NT4_visual_output.pse. All the existing interactions are represented as objects and saved as enabled objects - to change that, check the `Customizations <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#visual-outputs>`_ page. The color scale goes from red for unfavorable interactions, to blue for the favorable ones, and was customized to the range of -1500 to 1500 - as also described at `Customizations <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#visual-outputs>`_.
       
-
+.. image:: ./images/Visual_protein-ligand.png
+  :width: 750
