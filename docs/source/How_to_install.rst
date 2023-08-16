@@ -48,6 +48,13 @@ or also::
 	gcc -c Vcontacts-v1-2.c
 	gcc Vcontacts-v1-2.o -o vcon -lm
 
+To test if the compilation step was successful you might run::
+
+	./vcon
+
+.. image:: ./images/vcon.png
+  :width: 650
+
 .. tip::
 
 	If you are using Windows, make sure to have a functional C compiler installed. For that you might run ``conda install -c conda-forge m2w64-gcc`` on Anaconda Powershell Prompt as Administrator.
