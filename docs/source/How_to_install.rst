@@ -22,6 +22,9 @@ To access all **Surfaces** codes, you can clone the repository using `git <https
 
 or download the **Surfaces** repository at ``https://github.com/nataliateruel/Surfaces``.
 
+.. image:: ./images/gitclone.png
+  :width: 400
+
 There are a few dependencies for **Surfaces**' Python scripts. You can install them by running the following commands using `pip <https://pip.pypa.io/en/stable/installation/>`_::
 
 	cd Surfaces
