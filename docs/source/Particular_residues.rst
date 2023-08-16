@@ -34,7 +34,7 @@ Now, for the interactions evaluation, you will use::
 
       python surface_cont_res.py -f clean_7EAZ.pdb -res GLY614A,GLY614B,GLY614C -o 7EAZ_output.csv -def AMINO_FlexAID.def -dat FlexAID.dat
 
-With the residue of interest specified for each chain in which it exists. And now you have created the output file 7EAZ_output.csv with the pairwise interactions of the residues GLY614A, GLY614B and GLY614C and all residues from Spike.
+With the residue of interest specified for each chain in which it exists. And now you have created the output file 7EAZ_output.csv with the pairwise interactions of the residues GLY614A, GLY614B and GLY614C and all residues from Spike - this file mostly consists of zeros because most pairs are not interacting -, as well as the file List_7EAZ_output.txt, with a list of the existing interactions ranked by absolute value.
 
 To map this evaluation back to the structure and visually check your results, you can run::
 
