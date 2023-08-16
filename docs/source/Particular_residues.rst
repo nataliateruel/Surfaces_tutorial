@@ -30,11 +30,20 @@ First we need to clean the structure from any non-defined atom, such as heteroat
       
 And you will have created the clean_7EAZ.pdb file.
 
+.. image:: ./images/clean_particular-residues.png
+  :width: 450
+
 Now, for the interactions evaluation, you will use::
 
       python surface_cont_res.py -f clean_7EAZ.pdb -res GLY614A,GLY614B,GLY614C -o 7EAZ_output.csv -def AMINO_FlexAID.def -dat FlexAID.dat
 
 With the residue of interest specified for each chain in which it exists. And now you have created the output file 7EAZ_output.csv with the pairwise interactions of the residues GLY614A, GLY614B and GLY614C and all residues from Spike - this file mostly consists of zeros because most pairs are not interacting -, as well as the file List_7EAZ_output.txt, with a list of the existing interactions ranked by absolute value.
+
+.. image:: ./images/CSV_particular-residues.png
+  :width: 750
+
+.. image:: ./images/List_particular-residues.png
+  :width: 450
 
 To map this evaluation back to the structure and visually check your results, you can run::
 
@@ -42,4 +51,5 @@ To map this evaluation back to the structure and visually check your results, yo
       
 Now you have a representation of your results in the pymol session 7EAZ_visual_output.pse. All the existing interactions are represented and saved as enabled objects due to the specification of the residues of interes using -res - to know more about it, check the `Customizations <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#visual-outputs>`_ page. The color scale goes from red for unfavorable interactions, to blue for the favorable ones, and is automatically determined based on the largest absolute value - which is also `Customizable <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#visual-outputs>`_.
 
-      
+.. image:: ./images/Visual_particular-residues.png
+  :width: 750      
