@@ -41,7 +41,7 @@ Now it's time to evaluate interactions::
 
       python surface_cont_lig.py -f clean_7NT4.pdb -c AB -lig PRL -o 7NT4_output.csv -def custom_AMINO_FlexAID.def -dat FlexAID.dat
 
-In which the chains (A and B) are the chains of the protein and the ligand (PRL) is the ligand of interest, already defined in the custom .def file (custom_AMINO_FlexAID.def). Once this step is done, you have created the output file 7NT4_output.csv with the pairwise interactions between residues from PLpro and atoms from Proflavin.
+In which the chains (A and B) are the chains of the protein and the ligand (PRL) is the ligand of interest, already defined in the custom .def file (custom_AMINO_FlexAID.def). Once this step is done, you have created the output file 7NT4_output.csv with the pairwise interactions between residues from PLpro and atoms from Proflavin - this file mostly consists of zeros because most pairs are not interacting -, as well as the file List_7NT4_output.txt, with a list of the existing interactions ranked by absolute value.
 
 To map this evaluation back to the structure and visually check your results, you can run::
 
