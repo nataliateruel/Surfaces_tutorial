@@ -27,7 +27,7 @@ For the **protein-ligand** application we will use a structure of the SARS-CoV-2
 The initial step is to update the atom type definitions file with the atoms of the ligand PRL. For that you will create a .pdb file containg only the ligand of interest and evaluate the atom types of the atoms in this .pdb file, like described at `Preprocessing <https://surfaces-tutorial.readthedocs.io/en/latest/Preprocessing.html#ligands>`_::
       
       python create_lig_file.py -f 7NT4.pdb -lig PRL
-      python ligand_atomtypes.py -fl PRL.pdb -def AMINO_FlexAID.def
+      python ligand_atomtypes.py -pdb PRL.pdb -def AMINO_FlexAID.def
       
 The file custom_AMINO_FlexAID.def now contains updated atom type definitions that include the atoms of PRL.
 
