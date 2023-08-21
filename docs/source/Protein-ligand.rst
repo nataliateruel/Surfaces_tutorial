@@ -29,6 +29,10 @@ The initial step is to update the atom type definitions file with the atoms of t
       python create_lig_file.py -f 7NT4.pdb -lig PRL
       python ligand_atomtypes.py -pdb PRL.pdb -def AMINO_FlexAID.def
       
+This last step depends on importing pymol in order to convert the .pdb file to ./mol2 format and get the atom types for each ligand atom. In case you wish to not rely on the pymol library, you have the option to already use the .mol2 file as input::
+
+      python ligand_atomtypes.py -mol2 PRL.mol2 -def AMINO_FlexAID.def
+
 The file custom_AMINO_FlexAID.def now contains updated atom type definitions that include the atoms of PRL.
 
 .. image:: ./images/custom_AMINO_FlexAID.png
