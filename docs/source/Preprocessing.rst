@@ -22,7 +22,7 @@ Ligands
 One automated customization avaliable is the one to create atom type definitions for ligands of interest. For this, you will need to create and assess a .pdb file with only the ligand of interest using the following functions::
 
    python create_lig_file.py -f pdb_file.pdb -lig LIG
-   python ligand_atomtypes.py -fl LIG.pdb -def def_file.def
+   python ligand_atomtypes.py -pdb LIG.pdb -def def_file.def
    
 After updating the .def file with the ligand of interest, you can clean the complex structure while keeping the ligand atoms::
 
