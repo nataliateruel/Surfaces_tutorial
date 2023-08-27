@@ -52,4 +52,19 @@ To map this evaluation back to the structure and visually check your results, yo
 Now you have a representation of your results in the pymol session 7EAZ_visual_output.pse. All the existing interactions are represented and saved as enabled objects due to the specification of the residues of interes using -res - to know more about it, check the `Customizations <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#visual-outputs>`_ page. The color scale goes from red for unfavorable interactions, to blue for the favorable ones, and is automatically determined based on the largest absolute value - which is also `Customizable <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#visual-outputs>`_.
 
 .. image:: ./images/Visual_particular-residues.png
-  :width: 750      
+  :width: 750 
+
+.. tip::
+
+      You can also run the visual output step inside the Pymol interface and avoid issues with the Pymol API. For that, you must install the dependencies inside the Pymol environment::
+
+	 cd Surfaces
+	 pip install -r dependencies.txt
+
+      Run the **pymol_image_surfaces.py** script either using the interface button or directly from the Pymol prompt::
+
+       run pymol_image_surfaces.py
+
+      And then use the **generate_session** function::
+
+       generate_session("clean_7EAZ.pdb", "7EAZ_output.csv", residues_of_interest="GLY614A,GLY614B,GLY614C")
