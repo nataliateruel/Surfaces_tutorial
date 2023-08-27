@@ -54,3 +54,22 @@ Now you have a representation of your results in the pymol session 7VQ0_visual_o
 .. image:: ./images/Visual_protein-protein.png
   :width: 750
 
+.. tip::
+
+	You can also run the visual output step inside the Pymol interface and avoid issues with the Pymol API. For that, you must install the dependencies inside the Pymol environment::
+
+	cd Surfaces
+	pip install -r dependencies.txt
+
+      Run the *pymol_image_surfaces.py* script either using the interface button or directly from the Pymol prompt::
+
+      run pymol_image_surfaces.py
+
+      And then use the *generate_session* function::
+
+      generate_session("clean_7VQ0.pdb","7VQ0_output.csv")
+
+
+
+	
+
