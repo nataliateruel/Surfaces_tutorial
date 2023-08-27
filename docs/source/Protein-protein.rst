@@ -63,11 +63,11 @@ Now you have a representation of your results in the pymol session 7VQ0_visual_o
 
       Run the *pymol_image_surfaces.py* script either using the interface button or directly from the Pymol prompt::
 
-      run pymol_image_surfaces.py
+      	run pymol_image_surfaces.py
 
       And then use the *generate_session* function::
 
-      generate_session("clean_7VQ0.pdb","7VQ0_output.csv")
+      	generate_session("clean_7VQ0.pdb","7VQ0_output.csv")
 
 
 
