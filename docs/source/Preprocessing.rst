@@ -33,6 +33,12 @@ To evaluate interactions with more than one ligand, you might use as input a lis
    python create_lig_file.py -f pdb_file.pdb -lig LIG1,LIG2,LIG3
    python ligand_atomtypes.py -pdb LIG1.pdb,LIG2.pdb,LIG2.pdb -def def_file.def
 
+You may also choose a prefix for the custom .def file you are creating by using the prefix input::
+
+   python ligand_atomtypes.py -pdb LIG.pdb -def def_file.def -prefix LIG
+
+Which would create the LIG_def_file.def file with the updated atom type definitions. Otherwise, the default name will be custom_def_file.def.
+
 After updating the .def file with the ligand of interest, you can clean the complex structure while keeping the ligand atoms::
 
    python clean_structure.py -f pdb_file.pdb -def custom_def_file.def
