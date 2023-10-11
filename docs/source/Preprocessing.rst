@@ -19,7 +19,7 @@ You can find usage examples of this script in the `Protein-Protein <https://surf
 Ligands
 ----------------
 
-One automated customization avaliable is the one to create atom type definitions for ligands of interest. For this, you will need to create and assess a .pdb file with only the ligand of interest using the following functions::
+One automated customization avaliable is the one to create atom type definitions for ligands of interest. For this, you will need to create and assess a .pdb file for each ligand of interest using the following functions::
 
    python create_lig_file.py -f pdb_file.pdb -lig LIG
    python ligand_atomtypes.py -pdb LIG.pdb -def def_file.def
@@ -27,6 +27,11 @@ One automated customization avaliable is the one to create atom type definitions
 Or, in case you do not want the code to rely on importing the pymol library, you can use the .mol2 format as input::
 
    python ligand_atomtypes.py -mol2 LIG.mol2 -def def_file.def
+
+To evaluate interactions with more than one ligand, you might use as input a list of ligands::
+
+   python create_lig_file.py -f pdb_file.pdb -lig LIG1,LIG2,LIG3
+   python ligand_atomtypes.py -pdb LIG1.pdb,LIG2.pdb,LIG2.pdb -def def_file.def
 
 After updating the .def file with the ligand of interest, you can clean the complex structure while keeping the ligand atoms::
 
