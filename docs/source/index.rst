@@ -9,7 +9,7 @@ In this document, we offer a guide on how to install and utilize the protein-pro
 
    This project is under active development.
    
-   Cite this work as `Surfaces: A software to quantify and visualise interactions within and between proteins and ligands <https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btad608/7288175>`_.
+   Cite this work as `Surfaces: A software to quantify and visualise interactions within and between proteins and ligands <https://academic.oup.com/bioinformatics/article/39/10/btad608/7288175>`_.
 
 
 .. toctree::
