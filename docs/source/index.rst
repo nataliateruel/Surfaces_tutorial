@@ -1,4 +1,4 @@
-Surface's documentation
+Surfaces' documentation
 ===================================
 
 **Surfaces** comprises a collection of Python scripts that provide a rapid means to assess protein interactions by analyzing the atomic surface areas in contact and the types of atoms involved in the interaction.
