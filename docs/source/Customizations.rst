@@ -124,7 +124,7 @@ Visual outputs
 
 We have two visual output functions, one of which displays interactions between residues::
 
-      python image_surfaces.py -f pdb_file.pdb -c csv_output.csv -o pymol_session_output.pse -cs [bottom_coloe,mid_color,top_color] -cs_range [min_value,max_value] -res res1,res2,res3
+      python image_surfaces.py -f pdb_file.pdb -c csv_output.csv -o pymol_session_output.pse -cs [bottom_color,mid_color,top_color] -cs_range [min_value,max_value] -res res1,res2,res3
    
 and the second displays interactions of residues with atoms::
 
