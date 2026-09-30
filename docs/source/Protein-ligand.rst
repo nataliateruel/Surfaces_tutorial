@@ -61,7 +61,7 @@ In which the chains (A and B) are the chains of the protein and the ligand (PRL)
 
 To map this evaluation back to the structure and visually check your results, you can run::
 
-      python image_surfaces_lig.py -f clean_7NT4.pdb -c 7NT4_output.csv -o 7NT4_visual_output.pse -cs_range [-0.35,0.35]
+      python image_surfaces_lig.py -f clean_7NT4.pdb -c 7NT4_output.csv -o 7NT4_visual_output.pse -cs_range "[-0.35,0.35]"
       
 Now you have a representation of your results in the pymol session 7NT4_visual_output.pse. All the existing interactions are represented as objects and saved as enabled objects - to change that, check the `Customizations <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#visual-outputs>`_ page. The color scale goes from red for unfavorable interactions, to blue for the favorable ones, and was customized to the range of -0.35 to 0.35 - as also described at `Customizations <https://surfaces-tutorial.readthedocs.io/en/latest/Customizations.html#visual-outputs>`_.
       
