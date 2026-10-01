@@ -5,7 +5,12 @@ Surfaces' documentation
 
 .. tip::
 
-   Now you can run Surfaces as part of the `NRGSuite-Qt plugin <https://www.biorxiv.org/content/10.1101/2025.01.23.634566v1>`_.
+   Surfaces is also offered as a `Python package <https://pypi.org/project/surfaces-py/>`_.
+
+
+.. tip::
+
+   Now you can run Surfaces within PyMOL as part of the `NRGSuite-Qt plugin <https://www.biorxiv.org/content/10.1101/2025.01.23.634566v1>`_.
 
 
 In this document, we offer a guide on how to install and utilize the protein-protein and protein-ligand interaction evaluation functions, as well as the evaluation function of all the interactions associated with specific residues of interest. We also provide a manual for utilizing the structure preprocessing scripts necessary for each of these functions.
